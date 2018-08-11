@@ -5,11 +5,17 @@
     <meta charset="utf-8" />
     <title>Only Suffering</title>
     <link rel="stylesheet" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </head>
 <body>
     
-    <audio autoplay loop src="memovie.mp3"></audio>
+    <audio id="mee_audio" src="memovie.mp3" loop="loop"></audio>
     <video autoplay muted loop src="beelieve.mp4"></video>
     <h1>BEELIEVE IN HIM</h1>
+    <script>
+        $(document).ready(function(){
+            $("#mee_audio").get(0).play();
+        })
+    </script>
 </body>
 </html>
