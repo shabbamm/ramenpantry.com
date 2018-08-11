@@ -21,3 +21,12 @@
     left: 50%;
     transform: translate(-50%,-50%);
   }
+
+  .center {
+    position: absolute;
+    font-size: 20min;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px; 
+}
