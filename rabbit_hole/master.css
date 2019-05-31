@@ -5,12 +5,13 @@ selected tag{
 
 body{
     background-color: gray;
-    background-image: url(https://images-na.ssl-images-amazon.com/images/I/41fNXKl7olL.jpg);
+    background-image: url(https://cdn.discordapp.com/attachments/546482188623806488/583901761530494976/YouEatAllMyBEANS.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 div{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/41fNXKl7olL.jpg);
     background-color: rgba(234, 43, 222, .19);
     border-color: rgb(234, 43, 222);
     border-width: 3px;
