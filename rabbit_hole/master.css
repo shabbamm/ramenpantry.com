@@ -1,0 +1,30 @@
+/*
+selected tag{
+    property: value;
+} */
+
+body{
+    background-color: gray;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/41fNXKl7olL.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    background-color: rgba(234, 43, 222, .19);
+    border-color: rgb(234, 43, 222);
+    border-width: 3px;
+    border-style: dotted;
+}
+
+p{
+    color: blue;
+}
+
+h1{
+   color: blue;
+}
+
+li{
+    color: rgb(234, 43, 222)
+}
