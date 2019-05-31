@@ -8,24 +8,32 @@ body{
     background-image: url(https://cdn.discordapp.com/attachments/546482188623806488/583901761530494976/YouEatAllMyBEANS.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 div{
-    background-image: url(https://images-na.ssl-images-amazon.com/images/I/41fNXKl7olL.jpg);
     background-color: rgba(234, 43, 222, .19);
     border-color: rgb(234, 43, 222);
     border-width: 3px;
     border-style: dotted;
 }
 
+#amongus{
+    margin: 0 auto;
+    width: 100px;
+}
+
 p{
-    color: blue;
+    color: beige;
+    background-color: black;
 }
 
 h1{
-   color: blue;
+   color: red;
+   background-color: black;
 }
 
 li{
-    color: rgb(234, 43, 222)
+    color: rgb(234, 43, 222);
+    background-color: black;
 }
