@@ -1,25 +1,29 @@
+<!-- There should be some tie in as you call down the hole-->
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>CSS BASICS</title>
         <link rel="stylesheet" href="master.css">
-        <script src="watching.js"></script>
+        <script src="jQuery.js"></script>
+
     </head>
     <body>
+        <!--<iframe hidden width="560" height="315" src="https://www.youtube.com/embed/DH0BQtwEAsM?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
         <audio id="mee_audio" autoplay loop>
             <source src="hungerhunger.mp3">
         </audio>
-
-        <div id="amongus">
-            <img id="AiNsLeYiShE" src="https://images-na.ssl-images-amazon.com/images/I/41fNXKl7olL.jpg">
+        <div id="amongus" <!--class="orryx"-->>
+            <div id="korvazPrIson">
+                <div class="glitch-img" id="AiNsLeYiShE" style="background-image: url('harriott.png')"></div>
+                <!--<img id="AiNsLeYiShE" src="https://images-na.ssl-images-amazon.com/images/I/41fNXKl7olL.jpg">-->
+            </div>
         </div>
-
         <h1>He Hungers</h1>
 
         <p>He is beeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeyond space and time</p>
-
-        <div>
+        <div class="orryx">
             <p>He is inside my heAAAad</p>
             <p>I am al$$$$$$$$$so inside my head</p>
             <p>Inside my head and now <span>INSIDE YOURS! (HA PRESsF</span></p>
@@ -53,5 +57,23 @@
                 The coroner’s office will conduct an autopsy to identify the source of the mysterious blood which was located on his face and clothes. It is blue in colour and warm to the touch.
 
                 “We’ve never seen something quite like this before,” says Police Chief Debra Kosokowsky.</p>
+        <script src="mgGlitch.js"></script>
+        <script>
+            $(function() {
+                $( ".glitch-img" ).mgGlitch({
+                    destroy : false, // set 'true' to stop the plugin
+                    glitch: true, // set 'false' to stop glitching
+                    scale: true, // set 'false' to stop scaling
+                    blend : true, // set 'false' to stop glitch blending
+                    blendModeType : 'difference', // select blend mode type
+                    glitch1TimeMin : 600, // set min time for glitch 1 elem
+                    glitch1TimeMax : 900, // set max time for glitch 1 elem
+                    glitch2TimeMin : 10, // set min time for glitch 2 elem
+                    glitch2TimeMax : 115, // set max time for glitch 2 elem
+                    zIndexStart : 8, // because of absolute position, set z-index base value
+                });
+            });
+        </script>
+        <script src="watching.js"></script>
     </body>
 </html>
