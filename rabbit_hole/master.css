@@ -11,7 +11,7 @@ body{
     text-align: center;
 }
 
-div{
+div.orryx{
     background-color: rgba(234, 43, 222, .19);
     border-color: rgb(234, 43, 222);
     border-width: 3px;
@@ -36,4 +36,15 @@ h1{
 li{
     color: rgb(234, 43, 222);
     background-color: black;
+}
+
+#korvazPrIson{
+    position: relative;
+    height: 400px;
+}
+
+[id^="AiNsLeYiShE"]{
+    position: absolute;
+    width: 400px;
+    height: 400px;
 }
